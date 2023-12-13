@@ -1,0 +1,15 @@
+Here is the code for my CS4501 Autonomous Vehicles racing class! The class follows the precedence of F1Tenth competitions. More info here: https://www.f1tenth.racing
+
+All the code is done in ROS1 melodic and modules are written in Python. 
+
+The code includes the following modules:
+- Disparity Extension 
+- Google Cartographer 
+- Moving Body Particle Filtration
+
+And is an application of the following algorithms:
+- Wall following 
+- Follow the Gap 
+- PID Controllers
+- Pure Pursuit
+- Pure Pursuit + Obstacle Avoidance
