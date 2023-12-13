@@ -1,0 +1,8 @@
+prefix=/home/nvidia/depend_ws/devel
+
+Name: f1tenth_purepursuit
+Description: Description of f1tenth_purepursuit
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

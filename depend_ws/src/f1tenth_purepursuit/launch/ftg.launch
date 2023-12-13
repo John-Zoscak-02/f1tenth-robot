@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="f1tenth_purepursuit" name="ftg" type="ftg.py" output="screen"/>
+
+    <node pkg="f1tenth_purepursuit" name="disparity_extender" type="disparity_extender.py" output="screen"/>
+</launch>

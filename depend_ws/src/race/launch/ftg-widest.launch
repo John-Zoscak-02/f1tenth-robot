@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="race" name="control" type="control_ftg.py" output="screen"/>
+	<node pkg="race" name="disparity_extender" type="disparity_extender.py" output="screen"/>
+	<!-- <node pkg="race" name="widest_heading_finder" type="widest_heading_finder.py" output="screen"/> -->
+	<node pkg="race" name="follow_the_gap" type="follow_the_gap.py" output="screen"/>
+	<!-- <node pkg="race" name="rviz_test" type="rviz_test.py" output="screen" /> -->
+</launch>

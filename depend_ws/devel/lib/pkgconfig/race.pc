@@ -1,0 +1,8 @@
+prefix=/home/nvidia/depend_ws/devel
+
+Name: race
+Description: Description of race
+Version: 2.1.0
+Cflags: -I/home/nvidia/depend_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy sensor_msgs std_msgs geometry_msgs

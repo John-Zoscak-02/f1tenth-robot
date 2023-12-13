@@ -1,0 +1,8 @@
+prefix=/home/nvidia/depend_ws/devel
+
+Name: hector_imu_tools
+Description: Description of hector_imu_tools
+Version: 0.4.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,16 @@
+<launch>
+
+    <arg    name     = 'car_name'
+            default  = 'car_3'/>
+    <arg    name     = 'raceline'
+            default  = 'comp_7_smooth'/>
+
+    <node pkg="f1tenth_purepursuit" name="pure_pursuit" type="pure_pursuit_h2h.py" args="($arg car_name)" output="screen">
+        <param  name   = 'raceline'
+                value  = '$(arg raceline)'/>
+    </node>
+
+    <node pkg="f1tenth_purepursuit" name="ftg" type="ftg_h2h.py" output="screen"/>
+
+    <node pkg="f1tenth_purepursuit" name="disparity_extender" type="disparity_extender.py" output="screen"/>
+</launch>

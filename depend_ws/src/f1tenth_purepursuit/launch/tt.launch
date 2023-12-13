@@ -1,0 +1,11 @@
+<launch>
+    <arg    name     = 'car_name'
+            default  = 'car_3'/>
+    <arg    name     = 'raceline'
+            default  = 'comp_7_smooth'/>
+
+    <node pkg="f1tenth_purepursuit" name="pure_pursuit" type="pure_pursuit_tt.py" args="($arg car_name)" output="screen">
+        <param  name   = 'raceline'
+                value  = '$(arg raceline)'/>
+    </node>
+</launch>

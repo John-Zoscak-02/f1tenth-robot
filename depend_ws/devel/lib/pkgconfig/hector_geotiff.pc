@@ -1,0 +1,8 @@
+prefix=/home/nvidia/depend_ws/devel
+
+Name: hector_geotiff
+Description: Description of hector_geotiff
+Version: 0.4.0
+Cflags: -I/home/nvidia/depend_ws/src/F1tenth_car_workspace/hector_slam/hector_geotiff/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lgeotiff_writer /usr/lib/aarch64-linux-gnu/libQtGui.so /usr/lib/aarch64-linux-gnu/libQtCore.so
+Requires: hector_map_tools hector_nav_msgs nav_msgs pluginlib roscpp std_msgs

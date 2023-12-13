@@ -1,0 +1,8 @@
+prefix=/home/nvidia/depend_ws/devel
+
+Name: base_mapping
+Description: Description of base_mapping
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
